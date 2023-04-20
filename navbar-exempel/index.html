@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="https://kit.fontawesome.com/d07b08250a.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -54,6 +55,87 @@
                         </ul>    
                     </li>    
             </nav>
+            <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3>Kontakta oss</h3>
+                      <p>Vara Schlätta, Nämndemansvägen, Största och ända huset</p>
+                      <p>Telefon: 079-3341681</p>
+                      <p>Skriv vid fler frågor: schlätta@hotell.se</p>
+                    </div>
+                    <div class="col-md-6">
+                      <h3>Sociala medier</h3>
+                      <ul class="social-media">
+                        <li><a href="#"> Facebook <i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"> Twitter <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"> Instagram <i class="fa-brands fa-instagram"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                 
+                </div>
+              </footer>
+              
+              <div class="container">
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+                <div class="card">Card 3</div>
+                <div class="card">Card 4</div>
+              </div>
+
+              <form method="post" action="bookings.php">
+
+                  <label for="namn">Namn:</label>
+                  <input type="text" id="namn" name="namn" placeholder="Din morsa">
+              
+                  <label for="email">Email:</label>
+                 <input type="email" id="email" name="email" placeholder="schlätta@hotel.com">
+              
+                  <label for="telefon">Telefon:</label>
+                  <input type="telefon" id="telefon" name="telefon" placeholder="xxx-xxxxxxx">
+              
+                  <label for="checkin">Checka in:</label>
+                  <input type="date" id="checkin" name="checkin" required>
+              
+                  <label for="checkout">Checka ut:</label>
+                  <input type="date" id="checkout" name="checkout" required>
+              
+                  <label for="adults">Adults:</label>
+
+                <select id="adults" name="adults" required>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              
+                <label for="children">Children:</label>
+                
+                <select id="children" name="children" required>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              
+                <input type="submit" value="Book Now">
+              
+              </form>
+              
+            
+              
+
+
+
+                
+
         </header>
     </body>
 </html>
+
+
+                  

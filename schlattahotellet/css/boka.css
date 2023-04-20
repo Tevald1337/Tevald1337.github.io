@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    background-color: aqua;  
+    padding: 0 200px; 
+    gap: 300px;
+    background: url(../img/Hotel.JPG);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 30%;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  input[type="date"] {
+    width: 50%;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  main > div{
+    flex: 1 1 60%;
+  }
+  
+  
