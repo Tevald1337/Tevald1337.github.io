@@ -2,11 +2,18 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 800px;
-    background-color: aqua;  
+    min-height: 800px;  
     padding: 0 200px; 
     gap: 300px;
-    background: url(../img/Hotel.JPG);
+    background: url(../img/rum.jpeg);
+    background-size: cover;
+    
+}
+
+main > div.form-text{
+    color: beige;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
 }
 
 form {
@@ -16,8 +23,9 @@ form {
     padding: 20px;
     border-radius: 10px;
     flex: 1 1 30%;
-    
   }
+
+  
   
   label {
     display: block;
