@@ -9,6 +9,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+/* Navbar*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -95,10 +97,11 @@ nav ul > li > a:hover{
     background-color: beige;
 }
 
+/* Hero (Stora bilden)*/
 .hero{
     width: 100vw;
     height: 35rem;
-    background: linear-gradient(90deg, rgba(0,0,0,0.5032606792717087) 0%, rgba(0,0,0,0.486453956582633) 35%, rgba(0,0,0,0.34079569327731096) 100%), url(../img/spa-1200x800-_MG_3553.jpeg);
+    background: linear-gradient(90deg, rgba(0,0,0,0.5032606792717087) 0%, rgba(0,0,0,0.486453956582633) 35%, rgba(0,0,0,0.34079569327731096) 100%), url(../img/spa-1200x800-_MG_3553.webp);
     text-shadow: 0.3125rem 0.125rem 0.125rem #313131;
     text-align: center;
     background-size: cover;
@@ -112,55 +115,8 @@ nav ul > li > a:hover{
     font-size: 1.5rem;
 }
 
-footer {
-  background-color: var(--main-color);
-  padding: 2.5rem 0;
-  color: var(--text-color);
-}
 
-.container {
-  max-width: 71.25rem;
-  margin: 0 auto;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col-md-6 {
-  flex-basis: 50%;
-}
-
-h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-bottom: 1.25rem;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-bottom: 0.625rem;
-}
-
-ul.social-media {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-ul.social-media li {
-  margin-right: 1.25rem;
-}
-
-
-ul.social-media li a {
-  color: var(--text-color);
-  font-size: 1.25rem;
-}
-
+/* Cards*/
 .grid-container{
   display: grid;
   width: 100%;
@@ -252,19 +208,7 @@ ul.social-media li a {
   border-bottom: solid 3px  yellow;
 }
 
-@media screen and (max-width: 730px ){
-  nav ul{
-    display: none;
-  }
-  .grid-container{
-    grid-template-areas:
-    "a a"
-    "b b"
-    "c c"
-    "d d";
-  }
-}
-
+/* Hamburge meny*/
 #hamburger{
   display: none;
 }
@@ -349,6 +293,57 @@ header > label{
   border-bottom: 2px solid beige;
 }
 
+/* Footer*/
+footer {
+  background-color: var(--main-color);
+  padding: 2.5rem 0;
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 71.25rem;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  flex-basis: 50%;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+ul.social-media {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul.social-media li {
+  margin-right: 1.25rem;
+}
+
+
+ul.social-media li a {
+  color: var(--text-color);
+  font-size: 1.25rem;
+}
+
+/* Mobil Anpassning*/
 @media screen and (max-width: 900px){
   header > label{
       display: block;
@@ -358,7 +353,19 @@ header > label{
       display: none;
   }
 }
-  
+
+@media screen and (max-width: 730px ){
+  nav ul{
+    display: none;
+  }
+  .grid-container{
+    grid-template-areas:
+    "a a"
+    "b b"
+    "c c"
+    "d d";
+  }
+}
  
   
  
